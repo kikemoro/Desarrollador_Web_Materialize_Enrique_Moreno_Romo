@@ -1,0 +1,82 @@
+body{
+	background: url(../img/nayaritc.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.logo{
+	border-radius: 0px 0px 10px 10px;
+}
+
+.img-logo{
+	float: left;
+	width: 250px;
+}
+
+.formulario{
+	color: white;
+}
+
+.verde{
+	border-radius: 10px;
+	margin-top: 10px;
+}
+
+.articulo{
+	border-radius: 10px;
+}
+
+.text{
+	color: white;
+}
+
+.art{
+	padding: 5px;
+}
+
+#contenedor_vertical{
+	height: 200px;
+}
+
+.parrafo{
+	padding: 10px;
+}
+
+.logo-ic{
+	margin: 7px;
+}
+
+.linea{
+	border-color: orange;
+}
+
+.chip{
+	width: 50%;
+	margin-top: 10px;
+}
+
+.foto{
+	border-radius: 50px;
+}
+
+@media(max-width: 600px){
+	.img-logo{
+		width: 65%;
+	}
+}
+
+@media all and (max-width: 600px){
+	.orden1{
+		order: 1;
+	}
+	.orden2{
+		order: 2;
+	}
+}
+
+@media(min-width: 600px){
+	.menu{
+		display: none;
+	}
+}
